@@ -101,8 +101,6 @@
 				"fallocate",
 				"fanotify_mark",
 				"fchdir",
-				"fchmod",
-				"fchmodat",
 				"fchown",
 				"fchown32",
 				"fchownat",
@@ -387,10 +385,7 @@
 				"vfork",
 				"vmsplice",
 				"wait4",
-				"waitid",
-				"waitpid",
-				"write",
-				"writev"
+				"write"
 			],
 			"action": "SCMP_ACT_ALLOW",
 			"args": [],
