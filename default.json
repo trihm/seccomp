@@ -62,7 +62,6 @@
 				"capget",
 				"capset",
 				"chdir",
-				"chmod",
 				"chown",
 				"chown32",
 				"clock_adjtime",
