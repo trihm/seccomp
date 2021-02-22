@@ -62,6 +62,7 @@
 				"capget",
 				"capset",
 				"chdir",
+				"chmod",
 				"chown",
 				"chown32",
 				"clock_adjtime",
@@ -101,6 +102,8 @@
 				"fallocate",
 				"fanotify_mark",
 				"fchdir",
+				"fchmod",
+				"fchmodat",
 				"fchown",
 				"fchown32",
 				"fchownat",
@@ -385,7 +388,10 @@
 				"vfork",
 				"vmsplice",
 				"wait4",
-				"write"
+				"waitid",
+				"waitpid",
+				"write",
+				"writev"
 			],
 			"action": "SCMP_ACT_ALLOW",
 			"args": [],
